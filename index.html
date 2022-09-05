@@ -12,36 +12,93 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?familt=Poppins&display=swap">
 </head>
 
-
-
-
+<div class="header-body">
 <header>
   <nav>
 
-    <div class="container-fluid">
-      <div class="row mt-2">
-        <div class="logo-bar col-2 mt-2"><i class=" align fa-solid fa-bars fs-5 "></i>
-          <a href="#"><img class="logo" src="images/youtube-logo-2020.svg" alt=""></a>
-        </div>
-        <div class="col-1"></div>
-        <div class="search-bar col-5"><input class="search form-control" type="search" placeholder="Search" aria-label="Search">
-          <button class="search-logo btn btn-black btn-border-2 " type="submit"><i class="fa-solid fa-magnifying-glass "></i></button>
-          <i class="search-logo fa fa-microphone mt-1  mx-4 border-1 border-light p-2 px-3 pb-3 rounded-circle bg-light fs-5" aria-hidden="true"></i>
-        </div>
-        
-        <div class="col-2"></div>
-        <div class="col-2">5</div>
-
+    <div class="home-bar logo-bar  mt-2"><button class="bar-button btn border-0 " data-bs-toggle="collapse" type="button" data-bs-target="#colapse-1"><i class=" align fa-solid fa-bars fs-5"></i></button></div>
+    <div><a href="#"><img class="logo" src="images/youtube-logo-2020.svg" alt=""></a></div>
+    <div class="header-div d-flex">
+      <div class="navigation d-flex ">
+          <div style="width: 60% ;"><input class="search-box form-control" type="search" placeholder="Search" aria-label="Search"></div>
+          <div><button class="search-icon btn btn-black" type="submit"><i class=" fa-solid fa-magnifying-glass"></i></button></div>
+          <div class="microphone"><i class="microphone-icon fa fa-microphone   px-3 fs-6" aria-hidden="true"></i></div>
       </div>
-    </div>
-
+      <div class="left-top d-flex">
+        <div><i class="fa-solid fa-video mt-1 me-4 fs-6"></i></div>
+          <div><i class="fa-solid fa-bell mt-1 me-4 fs-6"></i></div>
+          <div class="login me-3"><img src="images/shazam-logo.jpeg" alt=""></div>
+      </div>
+    </div> 
   </nav>
+  <hr class="head-line">
+  <div class="header-text d-flex">
+      <p class="border rounded-pill">All</p>
+      <p class="border rounded-pill">Tamil cinema</p>
+      <p class="border rounded-pill">Music</p>
+      <p class="border rounded-pill">Trailers</p>
+      <p class="border rounded-pill">CSS</p>
+      <p class="border rounded-pill">Computer Science</p>
+      <p class="border rounded-pill">Live</p>
+      <p class="border rounded-pill">Mixes</p>
+      <p class="border rounded-pill">Sitcoms</p>
+      <p class="border rounded-pill">Game Shows</p>
+      <p class="border rounded-pill">Background Music</p>
+      <p class="border rounded-pill">Bollywood Music</p>
+      
+  </div>
+  <hr class="head-line-2">
 </header>
+</div>
 
 
-<!---------------------------------------------section------------------------------------------------>
 
 
+<!-------------------------------------- side line-------------------------------------------------------->
+<aside>
+  <div class="side-line collapse" id="colapse-1">
+    <ul>
+      <li><i class="fa-solid fa-house"></i> Home</li>
+      <li><i class="fa-regular fa-compass"></i> Explore</li>
+      <li><i class="fa-solid fa-bolt"></i> Shorts</li>
+      <li><i class="fa-brands fa-youtube"></i>Subscriptions</li>
+      <hr class="short-line">
+      <li><i class="fa-regular fa-bookmark"></i>  Library</li>
+      <li><i class="fa-solid fa-clock-rotate-left"></i>History</li>
+      <li><i class="fa-solid fa-clock-rotate-left"></i>Your videos</li>
+      <li><i class="fa-regular fa-clock"></i>Wath later</li>
+      <li><i class="fa-regular fa-thumbs-up"></i>Liked videos</li>
+      <li><i class="fa-solid fa-chevron-down"></i>Show more</li>
+      <hr class="short-line">
+      <p class="text-black-50 ps-4 mt-3 mb-1" style="font-size:14px ;">SUBSCRIPTIONS</p>
+      <li><img src="images/logo brototype.jpeg" alt="">Brototype Malyalam</li>
+      <li><img src="images/shazam-logo.jpeg" alt="">CallMeShazzam VINES</li>
+      <li><img src="images/easy tuto.jpeg" alt="">Easy Tutorial</li>
+      <li><img src="images/flowers.jpeg" alt="">Flowers TV</li>
+      <li><img src="images/mr perfect tech.jpeg" alt="">Mr Perfect Tech</li>
+      <li><img src="images/music logo.jpeg" alt="">AL Farah Rhythems</li>
+      <li><img src="images/togot music.jpeg" alt="">Togot Music</li>
+      <li><i class="fa-solid fa-chevron-down"></i>Show more</li>
+      <hr class="short-line">
+      <p class="text-black-50 ps-4 mt-3 mb-1" style="font-size:14px ;">EXPLORE</p>
+      <li><i class="fa-solid fa-film"></i> Movies</li>
+      <li><i class="fa-solid fa-gamepad"></i>Gaming</li>
+      <li><i class="fa-solid fa-tower-broadcast"></i>Live</li>
+      <li><i class="fa-solid fa-vest-patches"></i>   Fashion & Beauty</li>
+      <li><i class="fa-regular fa-lightbulb"></i>  Learning</li>
+      <li><i class="fa-solid fa-trophy"></i>Sports</li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+</aside>
+
+  
+
+
+
+<!---------------------------------------------section-Thumbnail------------------------------------------------>
+<div class="body-colour">
 
 
 <section>
@@ -185,11 +242,86 @@
       </div>
 
 
+      <div class="thumb col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 p-2">
+          <a class="text-decoration-none" href="#">
+            <div class="tile-img"><img src="images/thumbnail4.jpg" style="width:100% ;" alt="">
+              <div class="tile-time"><span class="time bg-black-50">59:41</span></div>
+            </div>
+
+            <div class="thumb-logo-div d-flex align-items-start">  
+              <img class="thumb-logo rounded-circle" src="images/logo brototype.jpeg" alt="">
+              <div class="ms-2" style="width:17em;"><p class="mb-1 fw-bold text-black">React For Beginners | Malayalam</p>
+                <p class="views">Brototype<br> 299K views <span class="dot">7 months ago</span></p>
+              </div>  
+            </div>  
+          </a>  
+      </div>
+
+
+
+      <div class="thumb col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 p-2">
+          <a class="text-decoration-none" href="#">
+            <div class="tile-img"><img src="images/thumbnail3.jpg" style="width:100% ;" alt="">
+              <div class="tile-time"><span class="time bg-black-50">59:41</span></div>
+            </div>
+
+            <div class="thumb-logo-div d-flex align-items-start">  
+              <img class="thumb-logo rounded-circle" src="images/logo-arjit.jpeg" alt="">
+              <div class="ms-2" style="width:17em;"><p class="mb-1 fw-bold text-black">60 mins of Hindi Lofi Songs to Study chill relax Arjit ....</p>
+                <p class="views">Arjit & Jubin Lofi Music <br> 2.9M views <span class="dot">4 months ago</span></p>
+              </div>  
+            </div>  
+          </a>  
+      </div>
+
+
+
+
+      <div class="thumb col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 p-2">
+          <a class="text-decoration-none" href="#">
+            <div class="tile-img"><img src="images/thumbnail2.jpg" style="width:100% ;" alt="">
+              <div class="tile-time"><span class="time bg-black-50">59:41</span></div>
+            </div>
+
+            <div class="thumb-logo-div d-flex align-items-start">  
+              <img class="thumb-logo rounded-circle" src="images/logo-arjit.jpeg" alt="">
+              <div class="ms-2" style="width:17em;"><p class="mb-1 fw-bold text-black">60 mins of Hindi Lofi Songs to Study chill relax Arjit ....</p>
+                <p class="views">Arjit & Jubin Lofi Music <br> 2.9M views <span class="dot">4 months ago</span></p>
+              </div>  
+            </div>  
+          </a>  
+      </div><div class="thumb col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 p-2">
+          <a class="text-decoration-none" href="#">
+            <div class="tile-img"><img src="images/thumbnail1.jpg" style="width:100% ;" alt="">
+              <div class="tile-time"><span class="time bg-black-50">59:41</span></div>
+            </div>
+
+            <div class="thumb-logo-div d-flex align-items-start">  
+              <img class="thumb-logo rounded-circle" src="images/logo brototype.jpeg" alt="">
+              <div class="ms-2" style="width:17em;"><p class="mb-1 fw-bold text-black">60 mins of Hindi Lofi Songs to Study chill relax Arjit ....</p>
+                <p class="views">Arjit & Jubin Lofi Music <br> 2.9M views <span class="dot">4 months ago</span></p>
+              </div>  
+            </div>  
+          </a>  
+      </div>
+
+
+
+
 
 
     </div>
+    <hr class="long-line m-4 border-1 rounded-pill">
+    <div class="d-flex align-items-center  mx-4">
+      <img src="images/youtube-shorts-icon.png" alt="" style="height:20px;">
+      <h5 class="m-2 ">Shorts</h5>
+    </div>
+
   </div>
 </section>
+
+
+
 
 
 <!-----------------------------------------------------------shorts--------------------------------------->
@@ -197,69 +329,91 @@
 
 
 
-<section>
+<section class="my-2">
     <div class="container d-flex justify-content-between">
-      
-
+          
       <div class="row m-3">
         <div class="col-xxl-2 col-xl-3 col-lg-4 col-md-6 col-sm-12">
-          <a href="#">
+          <a class="text-decoration-none" href="#">
           <div class="first-short">
-            <img src="images/shorts1.jpg" style="width:99%;" alt=""></a>
+            <img src="images/shorts6.jpg" style="width:99%;" alt="">
+            <p class="text-black fs-6 fw-bold m-1">കുലീനതയുടെ അങ്ങേയറ്റമാണ് ഈ മനുഷ്യൻ ❤ Fahad ❤</p>
+            <p class="views ms-1">1.5M views</p>
+          </a>
           </div>
         </div>
 
 
-        <div class=" col-xxl-2 col-xl-3 col-lg-4 col-md-6 col-sm-12 ">
-          <a href="#">
-            <div class="first-short">
-              <img src="images/shorts1.jpg" style="width:99%;" alt=""></a>
-            </div>
-        </div>
 
 
-        <div class=" col-xxl-2 col-xl-3 col-lg-4 col-md-6 col-sm-12 ">
 
-          <div class="">
-            <a href="#">
-              <div class="first-short">
-                <img src="images/shorts1.jpg" style="width:99%;" alt=""></a>
-              </div>
-          </div>
+        <div class="col-xxl-2 col-xl-3 col-lg-4 col-md-6 col-sm-12 ">
+          <a class="text-decoration-none" href="#">
+          <div class="first-short">
+            <img src="images/frame0 (2).jpg" style="width:99%;" alt=""></div>
+            <p class="text-black fs-6 fw-bold m-1">ആദ്യരാത്രിയിൽ ചെറുക്കന് കിട്ടിയ എട്ടിൻറെ പണി😱 </p>
+            <p class="views ms-1">683K views</p>
+          </a>
         </div>
 
 
         <div class="col-xxl-2 col-xl-3 col-lg-4 col-md-6 col-sm-12">
-          <div class="">
-            <a href="#">
-              <div class="first-short">
-                <img src="images/shorts1.jpg" style="width:99%;" alt=""></a>
-              </div>
+          <a class="text-decoration-none" href="#">
+          <div class="first-short">
+            <img src="images/shorts1.jpg" style="width:99%;" alt="">
+            <p class="text-black fs-6 fw-bold m-1">Thallumala | Tupathu Flute...</p>
+            <p class="views ms-1">259K views</p>
+          </a>
           </div>
-
         </div>
 
 
-        <div class="col-xxl-2 col-xl-3 col-lg-4 col-md-6 col-sm-12" >
-          <div class="">
-            <a href="#">
-              <div class="first-short">
-                <img src="images/shorts1.jpg" style="width:99%;" alt=""></a>
-              </div>
+
+
+        <div class="col-xxl-2 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+          <a class="text-decoration-none" href="#">
+          <div class="first-short">
+            <img src="images/shorts4.jpg" style="width:99%;" alt="">
+            <p class="text-black fs-6 fw-bold m-1">"ഞാൻ ഈ കസേര വിട്ട് തരില്ല"സിത്തുമണി😍</p>
+            <p class="views ms-1">859K views</p>
+          </a>
           </div>
         </div>
 
 
 
         <div class="col-xxl-2 col-xl-3 col-lg-4 col-md-6 col-sm-12">
-
-          <div class="">
-            <a href="#">
-              <div class="first-short">
-                <img src="images/shorts1.jpg" style="width:99%;" alt=""></a>
-              </div>
-          </div>
+          <a class="text-decoration-none" href="#">
+          <div class="first-short">
+            <img src="images/shorts2.jpg" style="width:99%;" alt=""></div>
+            <p class="text-black fs-6 fw-bold m-1">അവർ തീരുമാനിക്കട്ടെ😊❤️#shorts #youtube</p>
+            <p class="views ms-1">1.2M views</p>
+          </a>
+          
         </div>
+
+
+
+        <div class="col-xxl-2 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+          <a class="text-decoration-none" href="#">
+          <div class="first-short">
+            <img src="images/frame0 (1).jpg" style="width:99%;" alt=""></div>
+            <p class="text-black fs-6 fw-bold m-1">മലയാളത്തിലെ കോമഡി താരങ്ങളുടെ വിവാഹം</p>
+            <p class="views ms-1">89K views</p>
+          </a>
+          
+        </div>
+
+        
+
+
+
+
+        
+
+
+
+        
 
 
 
@@ -272,13 +426,166 @@
 </section>
 
 
+<!------------------------------------shorts end------------------------------------------------>
 
-<div class="">
-  <a href="#">
-    <div class="first-short mt-5">
-      <img src="images/shorts1.jpg" style="width:99%;" alt=""></a>
+
+
+
+
+
+
+
+
+
+<section>
+  <div class="container">
+    <hr class="long-line mx-4 my-5 border-1 rounded-pill">
+    <div class="row mx-3 my-5 ">
+
+
+
+      <div class="thumb col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 p-2">
+          <a class="text-decoration-none" href="#">
+            <div class="tile-img"><img src="images/arjit.jpg" style="width:100% ;" alt="">
+              <div class="tile-time"><span class="time bg-black-50">59:41</span></div>
+            </div>
+
+            <div class="thumb-logo-div d-flex align-items-start">  
+              <img class="thumb-logo rounded-circle" src="images/logo-arjit.jpeg" alt="">
+              <div class="ms-2" style="width:17em;"><p class="mb-1 fw-bold text-black">60 mins of Hindi Lofi Songs to Study chill relax Arjit ....</p>
+                <p class="views">Arjit & Jubin Lofi Music <br> 2.9M views <span class="dot">4 months ago</span></p>
+              </div>  
+            </div>  
+          </a>  
+      </div>
+
+
+
+
+      <div class="thumb col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 p-2">
+          <a class="text-decoration-none" href="#">
+            <div class="tile-img"><img src="images/mane lal.png" style="width:100% ;" alt="">
+              <div class="tile-time"><span class="time bg-black-50">5:06</span></div>
+            </div>
+
+            <div class="thumb-logo-div d-flex align-items-start">  
+              <img class="thumb-logo rounded-circle" src="images/music logo.jpeg" alt="">
+              <div class="ms-2" style="width:17em ;"><p class="mb-1 fw-bold text-black">Maane..Malaramban Valarthunna | 1080p | ....</p>
+                <p class="views">Music Zone<br> 2.3M views <span class="dot">1 year ago</span></p>
+              </div>  
+            </div>  
+          </a>  
+      </div>
+
+
+
+
+      <div class="thumb col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 p-2">
+          <a class="text-decoration-none" href="#">
+            <div class="tile-img"><img src="images/redux too.jpg" style="width:100% ;" alt="">
+              <div class="tile-time"><span class="time bg-black-50">9:04</span></div>
+            </div>
+
+            <div class="thumb-logo-div d-flex align-items-start">  
+              <img class="thumb-logo rounded-circle" src="images/easy tuto.jpeg" alt="">
+              <div class="ms-2" style="width:17em ;"><p class="mb-1 fw-bold text-black">Install Redux on windows 10 | install java jdk on windows ....</p>
+                <p class="views">Debug Media <br> 8.1K views <span class="dot">1 year ago</span></p>
+              </div>  
+            </div>  
+          </a>  
+      </div>
+
+
+      <div class="thumb col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 p-2">
+          <a class="text-decoration-none" href="#">
+            <div class="tile-img"><img src="images/bro.jpg" style="width:100% ;" alt="">
+              <div class="tile-time"><span class="time bg-black-50">27:06</span></div>
+            </div>
+
+            <div class="thumb-logo-div d-flex align-items-start">  
+              <img class="thumb-logo rounded-circle" src="images/logo brototype.jpeg" alt="">
+              <div class="ms-2" style="width:17em ;"><p class="mb-1 fw-bold text-black">Lovers Must Watch | My story</p>
+                <p class="views">Brototype Malayalam<br> 33K views <span class="dot">9 months ago</span></p>
+              </div>  
+            </div>  
+          </a>  
+      </div>
+
+
+      <div class="thumb col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 p-2">
+          <a class="text-decoration-none" href="#">
+            <div class="tile-img"><img src="images/alan walker.jpg" style="width:100% ;" alt="">
+              <div class="tile-time"><span class="time bg-black-50">1:13:28</span></div>
+            </div>
+
+            <div class="thumb-logo-div d-flex align-items-start">  
+              <img class="thumb-logo rounded-circle" src="images/togot music.jpeg" alt="">
+              <div class="ms-2" style="width:17em ;"><p class="mb-1 fw-bold text-black">Best of Music Mix Top 20 Popular Songs by Alan Walker</p>
+                <p class="views">Togot Music <br> 18M views <span class="dot">3 years ago</span></p>
+              </div>  
+            </div>  
+          </a>  
+      </div>
+
+
+      <div class="thumb col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 p-2">
+          <a class="text-decoration-none" href="#">
+            <div class="tile-img"><img src="images/perfect.jpg" style="width:100% ;" alt="">
+              <div class="tile-time"><span class="time bg-black-50">12:21</span></div>
+            </div>
+
+            <div class="thumb-logo-div d-flex align-items-start">  
+              <img class="thumb-logo rounded-circle" src="images/mr perfect tech.jpeg" alt="">
+              <div class="ms-2" style="width:17em ;"><p class="mb-1 fw-bold text-black">Please Don't BUY This Device | എന്റെ ₹4000 പോയി കിട്ടി </p>
+                <p class="views">Mr Perfect Tech <br> 607K views <span class="dot">2 months ago</span></p>
+              </div>  
+            </div>  
+          </a>  
+      </div>
+
+
+      <div class="thumb col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 p-2">
+          <a class="text-decoration-none" href="#">
+            <div class="tile-img"><img src="images/shazam.jpg" style="width:100% ;" alt="">
+              <div class="tile-time"><span class="time bg-black-50">11:16</span></div>
+            </div>
+
+            <div class="thumb-logo-div d-flex align-items-start">  
+              <img class="thumb-logo rounded-circle" src="images/shazam-logo.jpeg" alt="">
+              <div class="ms-2" style="width:17em ;"><p class="mb-1 fw-bold text-black">Surprising Umma | Samsung Galaxy  Z Flip 4 | Malayalam</p>
+                <p class="views">CallMeShazzam VINES <br>335K views <span class="dot">6 days ago</span></p>
+              </div>  
+            </div>  
+          </a>  
+      </div>
+
+      <div class="thumb col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 p-2">
+          <a class="text-decoration-none" href="#">
+            <div class="tile-img"><img src="images/star magic.jpg" style="width:100% ;" alt="">
+              <div class="tile-time"><span class="time bg-black-50">59:41</span></div>
+            </div>
+
+            <div class="thumb-logo-div d-flex align-items-start">  
+              <img class="thumb-logo rounded-circle" src="images/flowers.jpeg" alt="">
+              <div class="ms-2" style="width:17em ;"><p class="mb-1 fw-bold text-black">60 mins of Hindi Lofi Songs to Study chill relax Arjit ....</p>
+                <p class="views">Arjit & Jubin Lofi Music <br> 2.9M views <span class="dot">4 months ago</span></p>
+              </div>  
+            </div>  
+          </a>  
+      </div>
+
+
+
+
     </div>
+  </div>
+</section>
+
+
+
 </div>
+
+
 
 
   <!-----------------------------------js--------------------------------------------->
