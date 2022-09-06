@@ -6,7 +6,7 @@
 .body-colour{
     margin-top: 116px;
     background-color: #f8f8f8;
-    margin-left: 250px;
+    margin-left:250px ;
 }
 .header-body{
     position: fixed;
@@ -102,11 +102,11 @@
         justify-content:space-between
     }
     .navigation{
-        width: 50%;
+        width: 48%;
         justify-content: space-evenly;
     }
     .left-top{
-        width: 50%;
+        width: 48%;
         justify-content: space-evenly;
     }
     .microphone-icon{
@@ -116,8 +116,11 @@
         padding: 0;
         margin-top: 10px;
     }
-    .microphone{
-        
+    .body-colour{
+        margin-left: 0;        
+    }
+    .side-line{
+        display: none;
     }
 }
 .microphone{
@@ -133,7 +136,9 @@
     top: 5px;
 
 }
-
+.home-bar:visited .body-colour {
+    
+}
 
 
 .head-line{
