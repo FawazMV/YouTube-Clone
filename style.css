@@ -81,6 +81,9 @@
     padding-top: 12px;
     padding-bottom: 10px;
 }
+.abcd{
+
+}
 
 
 @media screen and (max-width:660px) {
@@ -121,6 +124,9 @@
     }
     .side-line{
         display: none;
+    }
+    .header-body{
+        left: 0;
     }
 }
 .microphone{
